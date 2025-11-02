@@ -11,6 +11,7 @@ var inject = require('./utils/inject/inject.js');
 var strUse = require('./utils/strUse/strUse.js');
 var strInject = require('./utils/strInject/strInject.js');
 var isTemplateStringsArray = require('./utils/isTemplateStringsArray/isTemplateStringsArray.js');
+var watchValueToValueWatcher = require('./utils/watchValueToValueWatcher/watchValueToValueWatcher.js');
 var use = require('./utils/use/use.js');
 
 
@@ -21,4 +22,5 @@ exports.inject = inject.inject;
 exports.strUse = strUse.strUse;
 exports.strInject = strInject.strInject;
 exports.isTemplateStringsArray = isTemplateStringsArray.isTemplateStringsArray;
+exports.watchValueToValueWatcher = watchValueToValueWatcher.watchValueToValueWatcher;
 exports.use = use.use;
