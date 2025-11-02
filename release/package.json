@@ -1,0 +1,40 @@
+{
+  "name": "@watch-state/utils",
+  "version": "0.0.0",
+  "description": "Utils for watch-state",
+  "main": "index.js",
+  "module": "index.es6.js",
+  "jsnext:main": "index.es6.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "innetjs release",
+    "patch": "innetjs patch",
+    "minor": "innetjs minor",
+    "major": "innetjs major",
+    "release": "innetjs release -p",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d8corp/watch-state-utils.git"
+  },
+  "keywords": [
+    "watch-state",
+    "watch",
+    "state",
+    "utils",
+    "front-end"
+  ],
+  "author": "Mikhail Lysikov <d8corp@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d8corp/watch-state-utils/issues"
+  },
+  "homepage": "https://github.com/d8corp/watch-state-utils",
+  "dependencies": {
+    "watch-state": "^3.5.0-alpha.3"
+  }
+}
