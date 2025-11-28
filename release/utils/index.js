@@ -8,4 +8,5 @@ require('./strInject/index.js');
 require('./isTemplateStringsArray/index.js');
 require('./watchValueToValueWatcher/index.js');
 require('./use/index.js');
+require('./withScope/index.js');
 

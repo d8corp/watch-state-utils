@@ -6,3 +6,4 @@ export * from './strInject';
 export * from './isTemplateStringsArray';
 export * from './watchValueToValueWatcher';
 export * from './use';
+export * from './withScope';

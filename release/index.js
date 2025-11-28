@@ -13,6 +13,7 @@ var strInject = require('./utils/strInject/strInject.js');
 var isTemplateStringsArray = require('./utils/isTemplateStringsArray/isTemplateStringsArray.js');
 var watchValueToValueWatcher = require('./utils/watchValueToValueWatcher/watchValueToValueWatcher.js');
 var use = require('./utils/use/use.js');
+var withScope = require('./utils/withScope/withScope.js');
 
 
 
@@ -24,3 +25,4 @@ exports.strInject = strInject.strInject;
 exports.isTemplateStringsArray = isTemplateStringsArray.isTemplateStringsArray;
 exports.watchValueToValueWatcher = watchValueToValueWatcher.watchValueToValueWatcher;
 exports.use = use.use;
+exports.withScope = withScope.withScope;

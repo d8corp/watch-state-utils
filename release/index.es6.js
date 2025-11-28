@@ -9,3 +9,4 @@ export { strInject } from './utils/strInject/strInject.es6.js';
 export { isTemplateStringsArray } from './utils/isTemplateStringsArray/isTemplateStringsArray.es6.js';
 export { watchValueToValueWatcher } from './utils/watchValueToValueWatcher/watchValueToValueWatcher.es6.js';
 export { use } from './utils/use/use.es6.js';
+export { withScope } from './utils/withScope/withScope.es6.js';
